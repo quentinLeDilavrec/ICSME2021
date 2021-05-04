@@ -4,7 +4,7 @@ This archive contains sources necessary to run the tool and the data produced by
 ## Sources for tool
 There are 4 directories needed to run the tool
 1. [java-tests-coevolution/](java-tests-coevolution/) is the main entry point. Projects in other source directories need to be installed before build this one.
-2. [impact-analysis/](impact-analysis/) does the static analysis.
+2. [impact-miner/](impact-miner/) does the static analysis.
 3. [gumtree-spoon-ast-diff/](gumtree-spoon-ast-diff/) is an improved version (we only added the a way to apply atomic evolutions and added missing code constructs) of a fork of gumtree that uses Spoon.
 4. [RefactoringMiner/](RefactoringMiner/) is also an improved version of RefactoringMiner. We slightly fixed the build to work with maven. We also exposed new api calls but in the end we did not use them.
 
