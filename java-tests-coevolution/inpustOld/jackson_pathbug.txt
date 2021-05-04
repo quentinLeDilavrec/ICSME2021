@@ -1,0 +1,1 @@
+https://github.com/FasterXML/jackson-core 1000 37d7895d344d271ff4052087dbb20d2cb8f57c76 e0527c3786b7ddfa0e3a3874941f3081b86bff6c

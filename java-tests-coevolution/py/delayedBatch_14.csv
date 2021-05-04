@@ -1,0 +1,2 @@
+repo;commitId;before;broken;after;collect(p)
+https://github.com/SonarSource/sonar-update-center;['3f840786d469b56b09692e0e7e2feb294a250f75', '837a541752926d4231087fe5456b10189a229d0d', '28ef5beb83fb9bd601bafd753d6ef4a3c7428cb3', '1af3eeac355114b6d0b5bc9b75299354b789cc68'];Tests execution;['App compiling'];Tests execution;[1.0]

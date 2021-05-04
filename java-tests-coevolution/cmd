@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=3333 -Dcom.sun.management.jmxremote.rmi.port=3333 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.local.only=false -Djava.rmi.server.hostname=diversitas.irisa.fr
+
+java \
+-Xmx8G \
+-XX:+UseStringDeduplication \
+-XX:SoftRefLRUPolicyMSPerMB=200 \
+-Dfile.encoding=UTF-8 @.argfile \
+fr.quentin.coevolutionMiner.CLI batch \
+-t 1 -l 1 -s $1 -c 200 -f inputs200rev \
+&> batch8_${1}.txt
+

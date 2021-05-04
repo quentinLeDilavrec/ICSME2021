@@ -1,0 +1,1743 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/qledilav/.m2/repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/qledilav/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+mai 26, 2020 9:09:23 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Direct driver instance 388043093 created for server address localhost:7687
+mai 26, 2020 9:09:23 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Direct driver instance 1059063940 created for server address localhost:7687
+mai 26, 2020 9:09:23 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Direct driver instance 927327686 created for server address localhost:7687
+Starting
+Shutdown
+almost
+4
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+[pool-1-thread-1] INFO org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl - Processing /home/qledilav/resources/Repos/INRIA/spoon 77b7b4e0a34e471f44faa304d287445906da3a3e ...
+[pool-1-thread-1] INFO org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl - Processing /home/qledilav/resources/Repos/INRIA/spoon 8ff4eb442fc32dbda372aeec673d0b9f74b04e98 ...
+mai 26, 2020 9:09:41 AM fr.quentin.coevolutionMiner.v2.evolution.miners.RefactoringMiner$1 handle
+INFOS: O- Move Method	public testImportOnSpoon() : void from class spoon.test.imports.ImportScannerTest to public testImportOnSpoon() : void from class spoon.test.imports.ImportTest
+
+mai 26, 2020 9:09:42 AM fr.quentin.coevolutionMiner.v2.evolution.miners.RefactoringMiner$1 handle
+INFOS: O- Move Method	private isTypePresentInStaticImports(type String, staticImports Collection<String>) : boolean from class spoon.test.imports.ImportScannerTest to private isTypePresentInStaticImports(type String, staticImports Collection<String>) : boolean from class spoon.test.imports.ImportTest
+
+mai 26, 2020 9:09:43 AM fr.quentin.coevolutionMiner.v2.evolution.miners.RefactoringMiner$1 handle
+INFOS: O- Move Method	private getStaticImportsFromSourceCode(sourceCode String) : List<String> from class spoon.test.imports.ImportScannerTest to private getStaticImportsFromSourceCode(sourceCode String) : List<String> from class spoon.test.imports.ImportTest
+
+mai 26, 2020 9:09:43 AM fr.quentin.coevolutionMiner.v2.evolution.miners.RefactoringMiner$1 handle
+INFOS: O- Move Method	private getTypeImportsFromSourceCode(sourceCode String) : List<String> from class spoon.test.imports.ImportScannerTest to private getTypeImportsFromSourceCode(sourceCode String) : List<String> from class spoon.test.imports.ImportTest
+
+mai 26, 2020 9:09:44 AM fr.quentin.coevolutionMiner.v2.evolution.miners.RefactoringMiner$1 handle
+INFOS: O- Move Method	public testImportByJavaDoc() : void from class spoon.test.imports.ImportScannerTest to public testImportByJavaDoc() : void from class spoon.test.imports.ImportTest
+
+[pool-1-thread-1] INFO org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl - Analyzed spoon [Commits: 1, Errors: 0, Refactorings: 5]
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mfr.inria.gforge.spoon:spoon-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Spoon Core 8.1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/target
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.645 s
+[[1;34mINFO[m] Finished at: 2020-05-26T09:09:47Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[pool-1-thread-1] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mfr.inria.gforge.spoon:spoon-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Spoon Core 8.1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 672 source files to /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[13,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[62,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[11,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[56,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[9,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/CtExtendedModifier.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/pattern/internal/DefaultGenerator.java:[15,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/SourcePositionImpl.java:[9,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/DefaultCoreFactory.java:[58,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/JavaOutputProcessor.java:[14,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/ContractVerifier.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/ParentExiter.java:[70,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTTreeBuilder.java:[132,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/ContextBuilder.java:[22,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/PositionBuilder.java:[35,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/DeclarationSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/CompoundSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTCommentBuilder.java:[26,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/modelobs/SourceFragmentCreator.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/BodyHolderSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/IncrementalLauncher.java:[32,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[20,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/SniperJavaPrettyPrinter.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/CompilationUnitImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/experimental/SpoonifyVisitor.java:[8,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTImportBuilder.java:[12,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTSnippetCompiler.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/FactoryImpl.java:[63,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[203,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[210,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[226,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[234,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[251,44] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[255,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[265,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/CtScanner.java:[203,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/CtScanner.java:[206,71] unchecked cast
+  required: java.util.Map<java.lang.String,? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[276,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[316,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[370,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/EarlyTerminatingScanner.java:[181,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[473,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[481,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[490,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[512,43] unchecked conversion
+  required: java.util.Set<java.lang.String>
+  found:    java.util.Set
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[525,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[533,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[539,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[543,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[550,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[557,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[575,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[596,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[379,86] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[382,86] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[391,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtCompilationUnitImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[399,82] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[422,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtCompilationUnitImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/CompilationUnitImpl.java:[15,75] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/position/NoSourcePosition.java:[31,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/position/NoSourcePosition.java:[34,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[20,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[22,42] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[32,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/SourcePosition.java:[41,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/declaration/CtEnumValue.java:[28,21] clone() in spoon.reflect.declaration.CtEnumValue overrides clone() in spoon.reflect.declaration.CtField
+  return type requires unchecked conversion from spoon.reflect.declaration.CtEnumValue to spoon.reflect.declaration.CtField<T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[714,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[719,45] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[724,65] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[729,67] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[1020,52] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[750,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[878,59] unchecked cast
+  required: T
+  found:    spoon.support.sniper.internal.SourceFragment
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[392,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[396,52] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[402,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[411,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[421,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[557,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[333,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[410,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[489,66] unchecked cast
+  required: java.util.Map<K,T>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked call to getConstructor(spoon.reflect.reference.CtTypeReference<?>...) as a member of the raw type spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked conversion
+  required: spoon.reflect.declaration.CtConstructor<T>
+  found:    spoon.reflect.declaration.CtConstructor
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[208,32] unchecked call to <C>setSuperclass(spoon.reflect.reference.CtTypeReference<?>) as a member of the raw type spoon.reflect.declaration.CtType
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,121] unchecked cast
+  required: java.lang.Class<T>
+  found:    java.lang.Class<capture#1 of ? extends java.lang.Object>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,130] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#2 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[265,85] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#3 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/ExecutableFactory.java:[104,86] unchecked conversion
+  required: spoon.reflect.declaration.CtMethod<T>
+  found:    spoon.reflect.declaration.CtMethod
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[34,39] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[41,28] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[48,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[52,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[66,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[76,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[94,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[106,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[113,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[126,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtNamedElementImpl.java: Some input files additionally use unchecked or unsafe operations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/target
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.405 s
+[[1;34mINFO[m] Finished at: 2020-05-26T09:10:14Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[pool-1-thread-1] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+[pool-1-thread-1] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+done evolution
+done evolution analysis https://www.github.com/INRIA/spoon
+5 evolutions found for https://www.github.com/INRIA/spoon from 77b7b4e0a34e471f44faa304d287445906da3a3e to 8ff4eb442fc32dbda372aeec673d0b9f74b04e98
+repoRawPath
+/INRIA/spoon
+/INRIA/spoon
+https://www.github.com/INRIA/spoon
+caution computation of coevolutions only between consecutive commits
+77b7b4e0a34e471f44faa304d287445906da3a3e
+8ff4eb442fc32dbda372aeec673d0b9f74b04e98
+26f03c4ecea8a79ce7b656b7df8d220ab78bed73
+8ff4eb442fc32dbda372aeec673d0b9f74b04e98
+77b7b4e0a34e471f44faa304d287445906da3a3e
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mfr.inria.gforge.spoon:spoon-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Spoon Core 8.1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 675 source files to /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/experimental/SpoonifyVisitor.java:[8,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[203,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[210,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[226,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[234,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[251,44] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[255,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[265,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/CtScanner.java:[203,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/CtScanner.java:[206,71] unchecked cast
+  required: java.util.Map<java.lang.String,? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[276,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[316,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[370,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/EarlyTerminatingScanner.java:[181,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[473,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[481,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[490,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[512,43] unchecked conversion
+  required: java.util.Set<java.lang.String>
+  found:    java.util.Set
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[525,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[533,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[539,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[543,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[550,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[557,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[575,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/declaration/CtEnumValue.java:[28,21] clone() in spoon.reflect.declaration.CtEnumValue overrides clone() in spoon.reflect.declaration.CtField
+  return type requires unchecked conversion from spoon.reflect.declaration.CtEnumValue to spoon.reflect.declaration.CtField<T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[878,59] unchecked cast
+  required: T
+  found:    spoon.support.sniper.internal.SourceFragment
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/TypeFactory.java:[333,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/TypeFactory.java:[410,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/TypeFactory.java:[489,66] unchecked cast
+  required: java.util.Map<K,T>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked call to getConstructor(spoon.reflect.reference.CtTypeReference<?>...) as a member of the raw type spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked conversion
+  required: spoon.reflect.declaration.CtConstructor<T>
+  found:    spoon.reflect.declaration.CtConstructor
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[208,32] unchecked call to <C>setSuperclass(spoon.reflect.reference.CtTypeReference<?>) as a member of the raw type spoon.reflect.declaration.CtType
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,121] unchecked cast
+  required: java.lang.Class<T>
+  found:    java.lang.Class<capture#1 of ? extends java.lang.Object>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,130] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#2 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/CodeFactory.java:[265,85] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#3 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/ExecutableFactory.java:[104,86] unchecked conversion
+  required: spoon.reflect.declaration.CtMethod<T>
+  found:    spoon.reflect.declaration.CtMethod
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/AnnotationFactory.java:[112,67] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtNamedElementImpl.java:[38,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtNamedElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtNamedElementImpl.java:[45,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtNamedElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[56,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[67,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[73,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[87,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[93,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[107,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[118,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[129,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[136,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[157,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[166,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[172,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[176,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[182,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[208,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[220,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[226,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[230,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[236,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[262,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[274,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[280,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[284,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[290,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[313,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[323,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[329,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[333,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[339,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[362,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[373,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[379,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[383,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[389,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[406,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtModuleImpl.java:[427,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.declaration.CtModuleImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/ModuleFactory.java:[77,44] unchecked cast
+  required: T
+  found:    spoon.reflect.factory.ModuleFactory.CtUnnamedModule
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/factory/ModuleFactory.java:[84,36] unchecked cast
+  required: T
+  found:    spoon.reflect.factory.ModuleFactory.CtUnnamedModule
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/path/impl/AbstractPathElement.java:[34,28] unchecked cast
+  required: C
+  found:    spoon.reflect.path.impl.AbstractPathElement<P,T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[91,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[99,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[104,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[109,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[114,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[119,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[124,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/reflect/visitor/PrintingContext.java:[137,36] unchecked cast
+  required: T
+  found:    spoon.reflect.visitor.PrintingContext.Writable
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/pattern/internal/DefaultGenerator.java:[88,68] unchecked cast
+  required: T
+  found:    spoon.reflect.code.CtCodeElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/pattern/internal/matcher/TobeMatched.java:[42,75] unchecked cast
+  required: java.util.List<java.lang.Object>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/pattern/internal/matcher/TobeMatched.java:[44,74] unchecked cast
+  required: java.util.Set<java.lang.Object>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/pattern/internal/matcher/TobeMatched.java:[46,82] unchecked cast
+  required: java.util.Map<java.lang.String,java.lang.Object>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/pattern/internal/matcher/TobeMatched.java:[115,48] unchecked conversion
+  required: java.util.List<java.lang.Object>
+  found:    java.util.ArrayList
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtReferenceImpl.java:[47,36] unchecked cast
+  required: T
+  found:    spoon.support.reflect.reference.CtReferenceImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtReferenceImpl.java:[54,28] unchecked cast
+  required: T
+  found:    spoon.support.reflect.reference.CtReferenceImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtReferenceImpl.java:[60,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.reference.CtReferenceImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtTypeReferenceImpl.java:[113,25] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtTypeReferenceImpl.java:[281,36] unchecked cast
+  required: C
+  found:    spoon.support.reflect.reference.CtTypeReferenceImpl<T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtTypeReferenceImpl.java:[291,28] unchecked cast
+  required: C
+  found:    spoon.support.reflect.reference.CtTypeReferenceImpl<T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtTypeReferenceImpl.java:[301,28] unchecked cast
+  required: C
+  found:    spoon.support.reflect.reference.CtTypeReferenceImpl<T>
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/declaration/CtTypeImpl.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/main/java/spoon/support/reflect/reference/CtTypeReferenceImpl.java: Some input files additionally use unchecked or unsafe operations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 216 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 751 source files to /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/ImportTest.java:[55,29] spoon.reflect.visitor.ImportScanner in spoon.reflect.visitor has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/ImportTest.java:[56,29] spoon.reflect.visitor.ImportScannerImpl in spoon.reflect.visitor has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/position/PositionTest.java:[88,39] spoon.test.position.testclasses.FooInterface in spoon.test.position.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/comment/CommentTest.java:[20,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/comment/CommentTest.java:[77,38] spoon.test.comment.testclasses.JavaDocComment in spoon.test.comment.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/MetamodelGenerator.java:[26,37] org.apache.commons.lang3.text.StrSubstitutor in org.apache.commons.lang3.text has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/ImportScannerTest.java:[29,29] spoon.reflect.visitor.ImportScanner in spoon.reflect.visitor has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/ImportScannerTest.java:[30,29] spoon.reflect.visitor.ImportScannerImpl in spoon.reflect.visitor has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/ImportScannerTest.java:[31,29] spoon.reflect.visitor.MinimalImportScanner in spoon.reflect.visitor has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/comment/testclasses/package-info.java:[10,27] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/pkg/testclasses/package-info.java:[2,23] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/pkg/package-info.java:[6,19] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/pkg/testclasses/internal/package-info.java:[9,35] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[200,72] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[250,72] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[839,99] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[841,101] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[880,99] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[882,101] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[883,101] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[918,108] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[985,108] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1066,80] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1070,91] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1072,93] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1073,93] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1088,38] unchecked call to HashSet(java.util.Collection<? extends E>) as a member of the raw type java.util.HashSet
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1091,98] unchecked cast
+  required: java.util.Set<spoon.reflect.reference.CtTypeReference<?>>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1098,38] unchecked call to HashSet(java.util.Collection<? extends E>) as a member of the raw type java.util.HashSet
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1100,98] unchecked cast
+  required: java.util.Set<spoon.reflect.reference.CtTypeReference<?>>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1435,125] unchecked conversion
+  required: java.util.List<spoon.reflect.code.CtLiteral<java.lang.String>>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1436,125] unchecked conversion
+  required: java.util.List<spoon.reflect.code.CtLiteral<java.lang.String>>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1525,146] unchecked cast
+  required: T
+  found:    spoon.reflect.code.CtStatement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/template/PatternTest.java:[1603,101] unchecked cast
+  required: java.util.List<spoon.reflect.declaration.CtTypeMember>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/intercession/insertBefore/InsertMethodsTest.java:[71,93] unchecked cast
+  required: spoon.reflect.declaration.CtMethod<java.lang.Void>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/intercession/insertBefore/InsertMethodsTest.java:[90,93] unchecked cast
+  required: spoon.reflect.declaration.CtMethod<java.lang.Void>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/D.java:[16,11] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.D overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.D to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/D.java:[16,11] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.D overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.D to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/C.java:[13,11] m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B to spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/C.java:[13,11] m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B to spoon.test.method_overriding.testclasses.A<java.io.InputStream>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/C.java:[18,43] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream> to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/method_overriding/testclasses/C.java:[18,43] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream> to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/secondaryclasses/ClassesTest.java:[110,61] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[91,68] unchecked cast
+  required: spoon.reflect.declaration.CtField<java.lang.Number>
+  found:    spoon.reflect.declaration.CtField<capture#1 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[92,68] unchecked cast
+  required: spoon.reflect.declaration.CtField<java.lang.Number>
+  found:    spoon.reflect.declaration.CtField<capture#2 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[120,92] unchecked cast
+  required: spoon.reflect.code.CtExpression<java.lang.Integer>
+  found:    spoon.reflect.code.CtExpression<capture#3 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[162,37] unchecked cast
+  required: spoon.reflect.code.CtLiteral<java.lang.Integer>
+  found:    spoon.reflect.code.CtLiteral<capture#4 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[236,36] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[243,36] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[260,28] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[277,28] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[280,29] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceTest.java:[301,37] unchecked call to <C>setValue(T) as a member of the raw type spoon.reflect.code.CtLiteral
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/type/testclasses/Pozole.java:[32,71] unchecked cast
+  required: java.lang.Class<? extends A>
+  found:    java.lang.Class<java.lang.annotation.Annotation>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/NullParentTest.java:[56,86] unchecked cast
+  required: T
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[81,47] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[82,31] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[82,70] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[85,65] unchecked call to TypeFilter(java.lang.Class<? super T>) as a member of the raw type spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[85,64] unchecked method invocation: method getElements in interface spoon.reflect.declaration.CtElement is applied to given types
+  required: spoon.reflect.visitor.Filter<E>
+  found: spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[85,65] unchecked conversion
+  required: spoon.reflect.visitor.Filter<E>
+  found:    spoon.reflect.visitor.filter.TypeFilter
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[103,66] unchecked conversion
+  required: java.util.List<spoon.reflect.declaration.CtMethod>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[114,41] unchecked call to <C>setDeclaringType(spoon.reflect.reference.CtTypeReference<?>) as a member of the raw type spoon.reflect.reference.CtExecutableReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[122,38] unchecked call to <C>setDeclaringType(spoon.reflect.reference.CtTypeReference<?>) as a member of the raw type spoon.reflect.reference.CtFieldReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[124,54] unchecked call to <C>setVariable(spoon.reflect.reference.CtVariableReference<T>) as a member of the raw type spoon.support.reflect.code.CtVariableAccessImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[128,33] unchecked call to <C>setType(spoon.reflect.reference.CtTypeReference<T>) as a member of the raw type spoon.reflect.declaration.CtTypedElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[133,36] unchecked call to <C>setExecutable(spoon.reflect.reference.CtExecutableReference<T>) as a member of the raw type spoon.reflect.code.CtAbstractInvocation
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[134,35] unchecked call to <C>setArguments(java.util.List<spoon.reflect.code.CtExpression<?>>) as a member of the raw type spoon.reflect.code.CtAbstractInvocation
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[141,37] unchecked method invocation: method visitCtClass in class spoon.reflect.visitor.DefaultJavaPrettyPrinter is applied to given types
+  required: spoon.reflect.declaration.CtClass<T>
+  found: spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[141,38] unchecked conversion
+  required: spoon.reflect.declaration.CtClass<T>
+  found:    spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/lambda/testclasses/Panini.java:[14,64] unchecked cast
+  required: java.util.function.BiFunction<java.lang.Object,java.lang.Object,R>
+  found:    java.util.function.BiFunction<capture#5 of ? super T1,capture#6 of ? super T2,capture#7 of ? extends R>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[75,67] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[91,44] unchecked call to add(E) as a member of the raw type java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[99,43] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[123,49] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,77] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,75] unchecked method invocation: method create in interface spoon.reflect.factory.CoreFactory is applied to given types
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found: java.lang.Class
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,92] unchecked conversion
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[207,85] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[207,100] unchecked cast
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class<capture#8 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[86,88] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[86,103] unchecked cast
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class<capture#9 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[89,68] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/literal/LiteralTest.java:[57,96] unchecked method invocation: method matches in class spoon.reflect.visitor.filter.AbstractFilter is applied to given types
+  required: T
+  found: spoon.reflect.code.CtLiteral
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/literal/LiteralTest.java:[57,97] unchecked conversion
+  required: T
+  found:    spoon.reflect.code.CtLiteral
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/literal/LiteralTest.java:[137,46] Integer(int) in java.lang.Integer has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/factory/CodeFactoryTest.java:[54,27] unchecked call to <F,C>addField(spoon.reflect.declaration.CtField<F>) as a member of the raw type spoon.reflect.declaration.CtType
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/factory/CodeFactoryTest.java:[55,74] unchecked method invocation: method createVariableAssignment in class spoon.reflect.factory.CodeFactory is applied to given types
+  required: spoon.reflect.reference.CtVariableReference<A>,boolean,spoon.reflect.code.CtExpression<T>
+  found: spoon.reflect.reference.CtFieldReference,boolean,spoon.reflect.code.CtLiteral<java.lang.Boolean>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/factory/CodeFactoryTest.java:[55,89] unchecked conversion
+  required: spoon.reflect.reference.CtVariableReference<A>
+  found:    spoon.reflect.reference.CtFieldReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[88,57] unchecked method invocation: constructor <init> in class java.util.ArrayList is applied to given types
+  required: java.util.Collection<? extends E>
+  found: java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[88,89] unchecked conversion
+  required: java.util.Collection<? extends E>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[88,57] unchecked conversion
+  required: java.util.List<spoon.reflect.code.CtExpression<?>>
+  found:    java.util.ArrayList
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[103,61] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[190,37] unchecked method invocation: method addNestedType in interface spoon.reflect.declaration.CtType is applied to given types
+  required: spoon.reflect.declaration.CtType<N>
+  found: spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[190,38] unchecked conversion
+  required: spoon.reflect.declaration.CtType<N>
+  found:    spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[204,44] unchecked call to <C>setSuperInterfaces(java.util.Set<spoon.reflect.reference.CtTypeReference<?>>) as a member of the raw type spoon.reflect.declaration.CtType
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[209,103] unchecked call to <T>toArray(T[]) as a member of the raw type java.util.Set
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[214,35] unchecked method invocation: method setType in interface spoon.reflect.declaration.CtTypedElement is applied to given types
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found: spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java:[214,36] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/test/imports/testclasses/StaticNoOrdered.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/src/test/java/spoon/generating/replace/ReplaceScanner.java: Some input files additionally use unchecked or unsafe operations.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.350 s
+[[1;34mINFO[m] Finished at: 2020-05-26T09:10:42Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Number of executable refs mapped to positions 5
+mai 26, 2020 9:10:55 AM fr.quentin.impactMiner.ImpactAnalysis getImpactedTests2
+INFOS: 6
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Number of Impacted tests X number of evolutions 5
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Assembling Impacts
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Serializing Impacts
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: 5
+mai 26, 2020 9:10:55 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: {
+  "perRoot": [
+    {
+      "vertices": [
+        {
+          "id": 776661448,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-193702327",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@848619927",
+          "depth": 1,
+          "causes": [],
+          "effects": []
+        }
+      ],
+      "root": 776661448
+    },
+    {
+      "vertices": [
+        {
+          "id": 776551243,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@841656113",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@848486772",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            776430655
+          ]
+        },
+        {
+          "id": 776380754,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            776430655
+          ],
+          "effects": []
+        },
+        {
+          "id": 776430655,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776551243
+          ],
+          "effects": [
+            776380754
+          ]
+        }
+      ],
+      "root": 776551243
+    },
+    {
+      "vertices": [
+        {
+          "id": 776532394,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@1718347877",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@848462133",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            776441307
+          ]
+        },
+        {
+          "id": 776380754,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            776441307
+          ],
+          "effects": []
+        },
+        {
+          "id": 776441307,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776532394
+          ],
+          "effects": [
+            776380754
+          ]
+        }
+      ],
+      "root": 776532394
+    },
+    {
+      "vertices": [
+        {
+          "id": 776380754,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@848450893",
+          "depth": 1,
+          "causes": [],
+          "effects": []
+        }
+      ],
+      "root": 776380754
+    },
+    {
+      "vertices": [
+        {
+          "id": 776380754,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            776434785
+          ],
+          "effects": []
+        },
+        {
+          "id": 776434785,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776539127
+          ],
+          "effects": [
+            776380754
+          ]
+        },
+        {
+          "id": 776539127,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-1390901763",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@848474056",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            776434785
+          ]
+        }
+      ],
+      "root": 776539127
+    }
+  ],
+  "perTests": [
+    {
+      "vertices": [],
+      "root": 776661448
+    },
+    {
+      "vertices": [
+        {
+          "id": 776380754,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            776441307
+          ],
+          "effects": []
+        },
+        {
+          "id": 776434785,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776539127
+          ],
+          "effects": [
+            776380754
+          ]
+        },
+        {
+          "id": 776430655,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776551243
+          ],
+          "effects": [
+            776380754
+          ]
+        },
+        {
+          "id": 776441307,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            776532394
+          ],
+          "effects": [
+            776380754
+          ]
+        }
+      ],
+      "root": 776380754
+    }
+  ],
+  "roots": [
+    776661448,
+    776551243,
+    776532394,
+    776380754,
+    776539127
+  ],
+  "tests": [
+    776661448,
+    776380754
+  ]
+}
+done impact
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Number of executable refs mapped to positions 5
+mai 26, 2020 9:11:06 AM fr.quentin.impactMiner.ImpactAnalysis getImpactedTests2
+INFOS: 6
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Number of Impacted tests X number of evolutions 5
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Assembling Impacts
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: Serializing Impacts
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: 5
+mai 26, 2020 9:11:06 AM fr.quentin.coevolutionMiner.v2.impact.miners.MyImpactsMiner compute
+INFOS: {
+  "perRoot": [
+    {
+      "vertices": [
+        {
+          "id": -449087447,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@841656113",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@581520826",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            -449208035
+          ]
+        },
+        {
+          "id": -449208035,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449087447
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449257936,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            -449208035
+          ],
+          "effects": []
+        }
+      ],
+      "root": -449087447
+    },
+    {
+      "vertices": [
+        {
+          "id": -449197383,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449106296
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449106296,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@1718347877",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@581496187",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            -449197383
+          ]
+        },
+        {
+          "id": -449257936,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            -449197383
+          ],
+          "effects": []
+        }
+      ],
+      "root": -449106296
+    },
+    {
+      "vertices": [
+        {
+          "id": -449257936,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@581484947",
+          "depth": 1,
+          "causes": [],
+          "effects": []
+        }
+      ],
+      "root": -449257936
+    },
+    {
+      "vertices": [
+        {
+          "id": -449073946,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-193702327",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@581557277",
+          "depth": 1,
+          "causes": [],
+          "effects": []
+        }
+      ],
+      "root": -449073946
+    },
+    {
+      "vertices": [
+        {
+          "id": -449203905,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449099563
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449257936,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            -449203905
+          ],
+          "effects": []
+        },
+        {
+          "id": -449099563,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-1390901763",
+          "evolution": "fr.quentin.coevolutionMiner.v2.evolution.Evolutions$Evolution$DescRange@581508110",
+          "depth": 1,
+          "causes": [],
+          "effects": [
+            -449203905
+          ]
+        }
+      ],
+      "root": -449099563
+    }
+  ],
+  "perTests": [
+    {
+      "vertices": [
+        {
+          "id": -449197383,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449106296
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449208035,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449087447
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449203905,
+          "value": "spoon.support.reflect.code.CtInvocationImpl@1",
+          "depth": 2,
+          "causes": [
+            -449099563
+          ],
+          "effects": [
+            -449257936
+          ]
+        },
+        {
+          "id": -449257936,
+          "value": "spoon.support.reflect.declaration.CtMethodImpl@-947579492",
+          "depth": 3,
+          "causes": [
+            -449208035
+          ],
+          "effects": []
+        }
+      ],
+      "root": -449257936
+    },
+    {
+      "vertices": [],
+      "root": -449073946
+    }
+  ],
+  "roots": [
+    -449087447,
+    -449106296,
+    -449257936,
+    -449073946,
+    -449099563
+  ],
+  "tests": [
+    -449257936,
+    -449073946
+  ]
+}
+done impact
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mfr.inria.gforge.spoon:spoon-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Spoon Core 8.1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 672 source files to /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[13,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[62,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[11,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[56,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[9,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/CtExtendedModifier.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/pattern/internal/DefaultGenerator.java:[15,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/SourcePositionImpl.java:[9,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/DefaultCoreFactory.java:[58,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/JavaOutputProcessor.java:[14,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/ContractVerifier.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/ParentExiter.java:[70,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTTreeBuilder.java:[132,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/ContextBuilder.java:[22,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/PositionBuilder.java:[35,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/DeclarationSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/CompoundSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTCommentBuilder.java:[26,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/modelobs/SourceFragmentCreator.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/BodyHolderSourcePositionImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/IncrementalLauncher.java:[32,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[20,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/SniperJavaPrettyPrinter.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/CompilationUnitImpl.java:[8,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/experimental/SpoonifyVisitor.java:[8,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTImportBuilder.java:[12,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/compiler/jdt/JDTSnippetCompiler.java:[16,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/FactoryImpl.java:[63,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[203,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[210,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[226,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[234,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[251,44] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[255,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[265,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/CtScanner.java:[203,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/CtScanner.java:[206,71] unchecked cast
+  required: java.util.Map<java.lang.String,? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[276,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[316,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[370,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/visitor/EarlyTerminatingScanner.java:[181,70] unchecked cast
+  required: java.util.Collection<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[473,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[481,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[490,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[512,43] unchecked conversion
+  required: java.util.Set<java.lang.String>
+  found:    java.util.Set
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[525,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[533,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[539,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[543,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[550,36] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[557,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[575,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtElementImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtElementImpl.java:[596,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[379,86] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[382,86] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[391,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtCompilationUnitImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[399,82] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtCompilationUnitImpl.java:[422,28] unchecked cast
+  required: E
+  found:    spoon.support.reflect.declaration.CtCompilationUnitImpl
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/CompilationUnitImpl.java:[15,75] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/position/NoSourcePosition.java:[31,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/position/NoSourcePosition.java:[34,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[20,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[22,42] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/cu/position/PartialSourcePositionImpl.java:[32,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/cu/SourcePosition.java:[41,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/declaration/CtEnumValue.java:[28,21] clone() in spoon.reflect.declaration.CtEnumValue overrides clone() in spoon.reflect.declaration.CtField
+  return type requires unchecked conversion from spoon.reflect.declaration.CtEnumValue to spoon.reflect.declaration.CtField<T>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[714,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[719,45] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[724,65] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[729,67] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/Factory.java:[1020,52] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[750,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/sniper/internal/ElementSourceFragment.java:[878,59] unchecked cast
+  required: T
+  found:    spoon.support.sniper.internal.SourceFragment
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[392,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[396,52] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[402,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[411,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[421,25] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CoreFactory.java:[557,9] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[333,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[410,24] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/TypeFactory.java:[489,66] unchecked cast
+  required: java.util.Map<K,T>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked call to getConstructor(spoon.reflect.reference.CtTypeReference<?>...) as a member of the raw type spoon.reflect.declaration.CtClass
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[200,85] unchecked conversion
+  required: spoon.reflect.declaration.CtConstructor<T>
+  found:    spoon.reflect.declaration.CtConstructor
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[208,32] unchecked call to <C>setSuperclass(spoon.reflect.reference.CtTypeReference<?>) as a member of the raw type spoon.reflect.declaration.CtType
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,121] unchecked cast
+  required: java.lang.Class<T>
+  found:    java.lang.Class<capture#1 of ? extends java.lang.Object>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[263,130] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#2 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CodeFactory.java:[265,85] unchecked cast
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference<capture#3 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/ExecutableFactory.java:[104,86] unchecked conversion
+  required: spoon.reflect.declaration.CtMethod<T>
+  found:    spoon.reflect.declaration.CtMethod
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[34,39] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[41,28] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[48,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[52,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[66,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[76,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[94,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[106,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[113,33] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java:[126,16] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/reflect/factory/CompilationUnitFactory.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/main/java/spoon/support/reflect/declaration/CtNamedElementImpl.java: Some input files additionally use unchecked or unsafe operations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 216 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 750 source files to /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[28,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[24,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[25,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/jdtimportbuilder/ImportBuilderTest.java:[21,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/processing/processors/TestProcessor.java:[23,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/comment/CommentTest.java:[20,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/comment/CommentTest.java:[77,38] spoon.test.comment.testclasses.JavaDocComment in spoon.test.comment.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/imports/ImportTest.java:[35,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/TestSourceFragment.java:[40,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/api/APITest.java:[31,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method/MethodTest.java:[27,37] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/delete/DeleteTest.java:[34,37] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/prettyprinter/QualifiedThisRefTest.java:[38,37] spoon.test.delete.testclasses.Adobada in spoon.test.delete.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/reflect/visitor/CtScannerTest.java:[28,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/position/PositionTest.java:[88,39] spoon.test.position.testclasses.FooInterface in spoon.test.position.testclasses has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/sourcePosition/SourcePositionTest.java:[22,24] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/MetamodelGenerator.java:[26,37] org.apache.commons.lang3.text.StrSubstitutor in org.apache.commons.lang3.text has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/comment/testclasses/package-info.java:[10,27] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/pkg/testclasses/package-info.java:[2,23] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/pkg/package-info.java:[6,19] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/pkg/testclasses/internal/package-info.java:[9,35] @Deprecated annotation has no effect on this package declaration
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/ctBodyHolder/CtBodyHolderTest.java:[126,107] unchecked cast
+  required: spoon.reflect.code.CtLiteral<java.lang.String>
+  found:    spoon.reflect.code.CtCodeElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/visibility/VisibilityTest.java:[80,92] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/visibility/VisibilityTest.java:[85,81] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/intercession/insertBefore/InsertMethodsTest.java:[71,93] unchecked cast
+  required: spoon.reflect.declaration.CtMethod<java.lang.Void>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/intercession/insertBefore/InsertMethodsTest.java:[90,93] unchecked cast
+  required: spoon.reflect.declaration.CtMethod<java.lang.Void>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/NullParentTest.java:[56,86] unchecked cast
+  required: T
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/D.java:[16,11] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.D overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.D to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/D.java:[16,11] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.D overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.D to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/C.java:[13,11] m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B to spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/C.java:[13,11] m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides m1(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B to spoon.test.method_overriding.testclasses.A<java.io.InputStream>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/C.java:[18,43] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.B
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream> to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/method_overriding/testclasses/C.java:[18,43] m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.C overrides <T>m2(spoon.test.method_overriding.testclasses.C) in spoon.test.method_overriding.testclasses.A
+  return type requires unchecked conversion from spoon.test.method_overriding.testclasses.B<java.io.InputStream,java.io.FilterInputStream> to T
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[217,93] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[372,103] unchecked method invocation: method groupTypeMembersBySignature in class spoon.support.visitor.java.JavaReflectionTreeBuilderTest is applied to given types
+  required: java.util.Collection<spoon.reflect.declaration.CtTypeMember>
+  found: java.util.Collection
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[372,104] unchecked conversion
+  required: java.util.Collection<spoon.reflect.declaration.CtTypeMember>
+  found:    java.util.Collection
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[372,103] unchecked conversion
+  required: java.util.Map<java.lang.String,spoon.reflect.declaration.CtTypeMember>
+  found:    java.util.Map
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[373,101] unchecked method invocation: method groupTypeMembersBySignature in class spoon.support.visitor.java.JavaReflectionTreeBuilderTest is applied to given types
+  required: java.util.Collection<spoon.reflect.declaration.CtTypeMember>
+  found: java.util.Collection
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[373,102] unchecked conversion
+  required: java.util.Collection<spoon.reflect.declaration.CtTypeMember>
+  found:    java.util.Collection
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[373,101] unchecked conversion
+  required: java.util.Map<java.lang.String,spoon.reflect.declaration.CtTypeMember>
+  found:    java.util.Map
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[393,100] unchecked cast
+  required: java.util.List<spoon.reflect.declaration.CtAnnotation<?>>
+  found:    java.util.Collection<capture#1 of ? extends spoon.reflect.declaration.CtElement>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[395,54] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[497,96] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/support/visitor/java/JavaReflectionTreeBuilderTest.java:[501,96] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[75,67] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[91,44] unchecked call to add(E) as a member of the raw type java.util.List
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[99,43] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[123,49] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,77] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,75] unchecked method invocation: method create in interface spoon.reflect.factory.CoreFactory is applied to given types
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found: java.lang.Class
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[124,92] unchecked conversion
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[154,21] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[207,85] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/parent/ContractOnSettersParametrizedTest.java:[207,100] unchecked cast
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class<capture#2 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[86,88] getActualClass() in spoon.reflect.declaration.CtType has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[86,103] unchecked cast
+  required: java.lang.Class<? extends spoon.reflect.declaration.CtElement>
+  found:    java.lang.Class<capture#3 of ?>
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/replace/ReplaceParametrizedTest.java:[89,68] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/factory/ConstructorFactoryTest.java:[56,30] unchecked method invocation: method setType in interface spoon.reflect.declaration.CtTypedElement is applied to given types
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found: spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/factory/ConstructorFactoryTest.java:[56,31] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[82,52] unchecked cast
+  required: V
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[92,37] unchecked call to set(T) as a member of the raw type spoon.support.visitor.replace.ReplaceMapListener
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[109,53] unchecked cast
+  required: T
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[113,37] unchecked call to set(T) as a member of the raw type spoon.support.visitor.replace.ReplaceSetListener
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[132,53] unchecked cast
+  required: T
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[140,37] unchecked call to set(T) as a member of the raw type spoon.support.visitor.replace.ReplaceListListener
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/generating/replace/ReplacementVisitor.java:[156,37] unchecked call to set(T) as a member of the raw type spoon.support.visitor.replace.ReplaceListener
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[52,35] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[73,35] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[96,35] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[121,35] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/GetBinaryFilesTest.java:[143,35] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[104,86] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[109,86] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[127,73] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[133,86] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[136,86] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[242,56] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[248,69] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[251,38] unchecked method invocation: method setType in interface spoon.reflect.code.CtCatchVariable is applied to given types
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found: spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[251,39] unchecked conversion
+  required: spoon.reflect.reference.CtTypeReference<T>
+  found:    spoon.reflect.reference.CtTypeReference
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[252,84] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[255,98] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[258,89] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[261,103] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[268,103] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[269,98] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/trycatch/TryCatchTest.java:[272,76] getActualClass() in spoon.reflect.reference.CtTypeReference has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/eval/testclasses/ToEvaluate.java:[51,29] unchecked cast
+  required: U
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/eval/testclasses/ToEvaluate.java:[55,28] unchecked cast
+  required: T
+  found:    spoon.reflect.declaration.CtElement
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[73,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[84,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[86,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[96,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[97,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[104,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[105,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[108,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[111,30] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;33mWARNING[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java:[122,17] spoon.reflect.cu.CompilationUnit in spoon.reflect.cu has been deprecated
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/compilationunit/TestCompilationUnit.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /home/qledilav/resources/Versions/INRIA/spoon/8ff4eb442fc32dbda372aeec673d0b9f74b04e98/src/test/java/spoon/test/generics/testclasses3/Foo.java: Some input files additionally use unchecked or unsafe operations.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  12.369 s
+[[1;34mINFO[m] Finished at: 2020-05-26T09:11:19Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mfr.inria.gforge.spoon:spoon-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Spoon Core 8.1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 216 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mspoon-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 source file to /home/qledilav/resources/Versions/INRIA/spoon/77b7b4e0a34e471f44faa304d287445906da3a3e/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.21.0:test[m [1m(default-test)[m @ [36mspoon-core[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.21.0/surefire-junit4-2.21.0.pom
+Progress (1): 1.4/3.1 kB
+Progress (1): 2.7/3.1 kB
+Progress (1): 3.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.21.0/surefire-junit4-2.21.0.pom (3.1 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.21.0/surefire-providers-2.21.0.pom
+Progress (1): 1.4/2.5 kB
+Progress (1): 2.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.21.0/surefire-providers-2.21.0.pom (2.5 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.21.0/surefire-junit4-2.21.0.jar
+Progress (1): 1.4/85 kB
+Progress (1): 2.7/85 kB
+Progress (1): 4.1/85 kB
+Progress (1): 5.5/85 kB
+Progress (1): 6.9/85 kB
+Progress (1): 8.2/85 kB
+Progress (1): 9.6/85 kB
+Progress (1): 11/85 kB 
+Progress (1): 12/85 kB
+Progress (1): 14/85 kB
+Progress (1): 15/85 kB
+Progress (1): 16/85 kB
+Progress (1): 18/85 kB
+Progress (1): 19/85 kB
+Progress (1): 21/85 kB
+Progress (1): 22/85 kB
+Progress (1): 23/85 kB
+Progress (1): 25/85 kB
+Progress (1): 26/85 kB
+Progress (1): 27/85 kB
+Progress (1): 29/85 kB
+Progress (1): 30/85 kB
+Progress (1): 32/85 kB
+Progress (1): 33/85 kB
+Progress (1): 34/85 kB
+Progress (1): 36/85 kB
+Progress (1): 37/85 kB
+Progress (1): 38/85 kB
+Progress (1): 40/85 kB
+Progress (1): 41/85 kB
+Progress (1): 43/85 kB
+Progress (1): 44/85 kB
+Progress (1): 45/85 kB
+Progress (1): 47/85 kB
+Progress (1): 48/85 kB
+Progress (1): 49/85 kB
+Progress (1): 51/85 kB
+Progress (1): 52/85 kB
+Progress (1): 53/85 kB
+Progress (1): 55/85 kB
+Progress (1): 56/85 kB
+Progress (1): 58/85 kB
+Progress (1): 59/85 kB
+Progress (1): 60/85 kB
+Progress (1): 62/85 kB
+Progress (1): 63/85 kB
+Progress (1): 64/85 kB
+Progress (1): 66/85 kB
+Progress (1): 67/85 kB
+Progress (1): 69/85 kB
+Progress (1): 70/85 kB
+Progress (1): 71/85 kB
+Progress (1): 73/85 kB
+Progress (1): 74/85 kB
+Progress (1): 75/85 kB
+Progress (1): 77/85 kB
+Progress (1): 78/85 kB
+Progress (1): 80/85 kB
+Progress (1): 81/85 kB
+Progress (1): 82/85 kB
+Progress (1): 84/85 kB
+Progress (1): 85 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.21.0/surefire-junit4-2.21.0.jar (85 kB at 1.2 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running spoon.test.imports.[1mImportScannerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.991 s - in spoon.test.imports.[1mImportScannerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  15.944 s
+[[1;34mINFO[m] Finished at: 2020-05-26T09:11:37Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+mai 26, 2020 9:11:37 AM fr.quentin.coevolutionMiner.v2.coevolution.miners.MyCoEvolutionsMiner compute
+INFOS: Test before evo success but was not able to get test in after version
+unvalidated found
+1
+done coevolution
+0 coevolutions found for https://www.github.com/INRIA/spoon from 77b7b4e0a34e471f44faa304d287445906da3a3e to 8ff4eb442fc32dbda372aeec673d0b9f74b04e98
+done
+mai 26, 2020 9:11:37 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Closing driver instance 1059063940
+mai 26, 2020 9:11:37 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Closing connection pool towards localhost:7687
+mai 26, 2020 9:11:38 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Closing driver instance 388043093
+mai 26, 2020 9:11:38 AM org.neo4j.driver.internal.logging.JULogger info
+INFOS: Closing connection pool towards localhost:7687
